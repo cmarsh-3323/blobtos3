@@ -3,13 +3,13 @@ import os
 from azure.storage.blob import BlobServiceClient
 
 # Blob Storage and AWS S3 credentials
-azure_account_name = 'storage3323'
+azure_account_name = 'xxxxxxxxx'
 azure_account_key = os.environ.get("azure_account_key")
-container_name = 'chriscontainer'
-blob_name = 'League.csv'
+container_name = 'xxxxxxxx'
+blob_name = 'xxxxxxx.csv'
 aws_access_key = os.environ.get("aws_access_key")
 aws_secret_key = os.environ.get("aws_secret_key")
-aws_bucket_name = 'awsbucket3323'
+aws_bucket_name = 'xxxxxxxx'
 
 # Start Azure Blob Service Client
 azure_blob_service_client = BlobServiceClient(
